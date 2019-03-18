@@ -6,8 +6,8 @@ header.masthead {
   // if the image name change, make sure to update the url path below!
   background: linear-gradient(
       to bottom,
-      #{fade-out($brown, 0.2)} 0%,
-      #{fade-out($brown, 0.2)} 100%
+      #{fade-out($dark, 0.2)} 0%,
+      #{fade-out($dark, 0.2)} 100%
     ),
     url('../img/landing_hero_bg.jpg');
   background-position: center;
@@ -16,6 +16,7 @@ header.masthead {
   background-size: cover;
   h1 {
     font-size: 2.25rem;
+    font-family: 'Oswald', sans-serif;
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
